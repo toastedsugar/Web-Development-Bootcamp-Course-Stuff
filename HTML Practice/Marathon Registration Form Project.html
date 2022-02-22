@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon</title>
+</head>
+
+<body>
+    <main>
+        <h1>Race Registration!</h1>
+        <section>
+            <form action="/marathon">
+                <div>
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" id="usefirst_namername">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name">
+                    <p>Select a Race:</p>
+                    <div>
+                        <input type="radio" name="race_type" id="fun_run_5k" value="fun_run_5k">
+                        <label for="fun_run_5k">Fun Run 5k</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="race_type" id="half_marathon" value="half_marathon">
+                        <label for="half_marathon">Half Marathon</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="race_type" id="full_marathon" value="full_marathon">
+                        <label for="full_marathon">Full Marathon</label>
+                    </div>
+                    <div>
+                        <label for="email">Username</label>
+                        <input type="text" name="email" id="email">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div>
+                        <label for="age_select">Select age group</label>
+                        <select name="age_select" id="age_select">
+                            <option value="under_18">Under 18</option>
+                            <option value="0-6">0-6</option>
+                            <option value="7-12">7-12</option>
+                            <option value="13-18">13-18</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button>Register!</button>
+                    </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

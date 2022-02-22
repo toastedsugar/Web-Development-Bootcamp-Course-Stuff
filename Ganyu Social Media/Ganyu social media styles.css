@@ -1,0 +1,54 @@
+/*
+    Color pallette: https://coolors.co/palette/77b6ea-3c73aa-1a659e-00408f-00296b-001d3d-edc531-fdc500-fad643-fdd85d
+*/
+
+
+
+.header{
+    float: left;
+}
+
+.centerbox{
+    width: 900px;
+    height: 900px;
+}
+
+
+.footer{
+    float: left;
+}
+
+.post{
+    padding-left: 10px;
+    width: 50%;
+    margin: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #6298c4;
+    box-sizing: border-box;
+    border-radius: 2%;
+}
+
+body {
+    background-color: #77B6EA;
+}
+
+h1 { color: #001D3D; }
+
+h1 h2 { color: #001D3D; }
+
+nav ul a {color: pink}
+
+button  {
+    color: whitesmoke;
+    background-color: #00408F
+}
+
+img{height: 300px;}
+
+#sign_up {
+    background-color: #00296B;
+}
+.post:nth-of-type(2n) {
+    background-color: #6298c4;
+}

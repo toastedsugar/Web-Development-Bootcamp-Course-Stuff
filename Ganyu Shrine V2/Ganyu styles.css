@@ -1,0 +1,16 @@
+h1 {
+    color: teal;
+    font-weight: 600;
+    text-decoration: dotted;
+}
+
+h2{color:darkcyan;}
+
+body{
+    background-color: lightskyblue;
+}
+
+p {
+    font-weight: 100;
+}
+
