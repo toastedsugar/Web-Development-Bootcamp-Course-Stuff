@@ -1,0 +1,50 @@
+/*
+    Color pallette: https://coolors.co/palette/77b6ea-3c73aa-1a659e-00408f-00296b-001d3d-edc531-fdc500-fad643-fdd85d
+*/
+
+
+body {
+    background-color: #B5C6E0;
+    color: 001D3D;
+}
+
+.header{
+    float: left;
+}
+
+h1{
+    margin-left: 11%;
+}
+
+.centerbox{
+    width: 100vw;
+    height: 100vh;
+}
+
+.post{
+    padding-left: 5%;
+    width: 50%;
+    margin: 10px;
+    border-width: 3px;
+    border-style: none;
+    background-color: #C7D5E7;
+    box-sizing: border-box;
+    border-radius: 2%;
+}
+
+button  {
+    color: white;
+    background-color: #BECEE4;
+    border-style: none;
+}
+
+img{
+    height: 250px;
+    width: 80%;
+    object-fit: cover;
+}
+
+
+.footer{
+    float: left;
+}

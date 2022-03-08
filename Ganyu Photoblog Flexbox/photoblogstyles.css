@@ -1,6 +1,6 @@
 body {
     background-color: #DAE9E4;
-}
+} 
 
 nav h1{
     font-family: 'Merriweather', serif;
@@ -13,9 +13,19 @@ nav h1{
     padding: calc(40%/20);
 }
 
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
 .post {
     position: relative;
-    width: 30%;
+    width: 25%;
     height: 40%;
     margin: calc(40%/20);
 }

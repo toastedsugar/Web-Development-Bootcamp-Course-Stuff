@@ -1,0 +1,87 @@
+body {
+    background-color: #DAE9E4;
+} 
+
+nav h1{
+    font-family: 'Merriweather', serif;
+    border-bottom: solid;
+    font-weight: bold;
+    color:#3C2E3D;
+    padding-left: 30px;
+    width: 35%;
+    margin: calc(40%/20);
+    padding: calc(40%/20);
+}
+
+.content {
+    /**/
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.post {
+    position: relative;
+    flex-basis: 30%;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.post img {
+    display: block;
+    /**/
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6%;
+}
+
+.img-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: whitesmoke;
+    width: 50%;
+    padding: 10px;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.post:hover img{
+    filter: brightness(30%);
+    transition: 0.2s;
+}
+
+.post:hover .img-text{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+
+
+
+
+.footer {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.footer ul li p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+@media (min-width: 800px){
+    nav{
+        background-color: #FDAE84;
+    }
+}
