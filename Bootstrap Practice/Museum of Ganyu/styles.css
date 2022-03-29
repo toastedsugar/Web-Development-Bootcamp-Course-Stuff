@@ -1,0 +1,27 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #1D3557;
+    background-color: #A8DADC;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    margin: 3%;
+}
+
+.navbar-brand{
+    color: #1D3557;
+}
+.nav-link.active {
+    color: #1D3557;
+}
+
+.col-sm{
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
