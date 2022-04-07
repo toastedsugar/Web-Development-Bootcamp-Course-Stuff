@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scoreboard{
+    width: 40vh;
+}
+
+.title{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.description{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.size{
+    font-size: large;
+}
+
+.max-score{
+    margin-left: 1rem;
+}

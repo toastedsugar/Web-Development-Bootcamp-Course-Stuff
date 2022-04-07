@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="bulma/css/bulma.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="scoreboard box">
+        <div class="image">
+            <img src="tumblr_mqv2gfr9Wo1sdn3hso1_400.gif" alt="akarin">
+        </div>
+        <div class="content">
+            <h1 class="title is-size-4">
+                <b>Ping Pong Scorekeeper</b>
+            </h1>
+            <div class="description">
+                <div class="score is-size-3">
+                    <span class="player-1-score">0</span>
+                    -
+                    <span class="player-2-score">0</span>
+                </div>
+                <div class="rules">Use the buttons below to keep score</div>
+                <div class="game-counter">Playing until
+                    
+                    <select name="max-score" class="max-score">
+                            <option value="6">6</option>
+                            <option value="7" selected="selected">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                    </select>
+
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column">
+                    <button class="player1-button button is-primary is-fullwidth">Player 1</button>
+                </div>
+                <div class="column">
+                    <button class="player2-button button is-info is-fullwidth">Player 2</button>
+                </div>
+                <div class="column">
+                    <button class="reset-button button is-danger is-fullwidth">Reset</button>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+
+</html>
